@@ -1,1 +1,37 @@
-Hello
+1. public static void main(String[] args) meaning 
+public: So that JVM can execute the method from anywhere.
+static: The main method is to be called without an object. The modifiers public and static can be written in either order.
+void: The main method doesn't return anything.
+main(): Name configured in the JVM. The main method must be inside the class definition. The compiler executes the codes starting always from the main function.
+String[]: The main method accepts a single argument, i.e., an array of elements of type String.
+
+*********************************************************************************************************************************************************************
+
+2. System.out.println("Hello, World");
+
+This line outputs the string "Hello, World" followed by a new line on the screen
+
+System : It is a predefined class in java.lang package 
+out : It is a reference of type PrintStream(class)
+println(String s) : a built-in method inside PrintStream class called using out object accepts various kinds of arguments(overloaded method).  
+
+*********************************************************************************************************************************************************************
+
+3. Hello.java has public Hello class (file name == class name)
+
+javac Hello.java >> Hello.class file is created in current working directory
+java Hello >> runs the class file
+
+Hello.java has World class without public modifier (file name != class name)
+
+javac Hello.java >> World.class file is created in current working directory
+java World >> runs the class file
+
+*********************************************************************************************************************************************************************
+
+We can overload main method 
+We cannot override main method 
+We can only have one public class in java file which has a main method 
+
+*********************************************************************************************************************************************************************
+
