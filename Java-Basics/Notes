@@ -45,3 +45,15 @@ package : name should be always in small like lang,util, etc
 variables : small case words like marks , etc
 
 ********************************************************************************************************************************************************************
+
+In which case the finally block will not execute 
+
+        try{
+            System.exit(0);
+        }
+        finally{
+            System.out.println("Sakshi!!!!");
+        }  
+        
+********************************************************************************************************************************************************************
+      
