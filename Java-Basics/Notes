@@ -65,4 +65,26 @@ int x3 = x2; // auto-unboxing (converting object to primitive)
 
 *********************************************************************************************************************************************************************
 
+Type Conversion in Java 
+
+Widening or Implicit Conversion
+
+byte << short << int << long << float << double 
+
+char << int <<....
+
+only confusion is with long and float 
+
+long stores 64 bit where as float stores 32 bits but float stores exponents separately so we migth loose on some precision but over all it can hold long
+
+Narrowing or Explicit conversion
+
+double d = 2.5;
+int i = (int) d;
+
+it can also be done in non-primitive types which is called upcasting or downcasting.
+will see this later.
+
+**********************************************************************************************************************************************************************
+
 
