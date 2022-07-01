@@ -35,3 +35,13 @@ We can only have one public class in java file which has a main method
 
 *********************************************************************************************************************************************************************
 
+Naming Convention 
+
+Class : Noun >>> example :- Add2Numbers, ReverseString
+Interface : Adjective >> example :- Readable
+method : Verb >> example :- run, print, search
+constants : PI,MAX_VALLUE,MIN_VALUE,MAX_INT
+package : name should be always in small like lang,util, etc
+variables : small case words like marks , etc
+
+********************************************************************************************************************************************************************
