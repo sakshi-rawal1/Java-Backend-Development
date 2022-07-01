@@ -52,7 +52,7 @@ In which case the finally block will not execute
             System.exit(0);
         }
         finally{
-            System.out.println("Sakshi!!!!");
+            System.out.println("Inside finally block");
         }  
         
 ********************************************************************************************************************************************************************
