@@ -118,3 +118,10 @@ Static Member in Java
 → Static methods do not have access to this reference 
 
 *******************************************************************************************************************************************************************
+
+Final Keyword in Java
+1. Variable (local, instance or class) No re-initialization
+2. methods : No overridding
+3. Class : No inheritence 
+
+******************************************************************************************************************************************************************
