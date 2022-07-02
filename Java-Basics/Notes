@@ -124,4 +124,10 @@ Final Keyword in Java
 2. methods : No overridding
 3. Class : No inheritence 
 
+final variables need not to be initialized at the time of declaration.
+******************************************************************************************************************************************************************
+
+static{} block is class level //before main method 
+initializer{} block is instance level //before constructor
+
 ******************************************************************************************************************************************************************
