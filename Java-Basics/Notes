@@ -109,12 +109,12 @@ class Test{
 
 Static Member in Java
 
-→ Static membex can be accessed without creating
-
-an object.
+→ Static membex can be accessed without creating an object.
 
 → Static methods cannot access non-static member.
 
-Non-Static methods Can access static members
+→ Non-Static methods Can access static members
 
-Static methods do not have access to this reference 
+→ Static methods do not have access to this reference 
+
+*******************************************************************************************************************************************************************
