@@ -131,3 +131,6 @@ static{} block is class level //before main method
 initializer{} block is instance level //before constructor
 
 ******************************************************************************************************************************************************************
+
+All checked Exceptions must be thrown using throws keyword in method signature in order to compile the code successfully.
+or else it can be caught using try catch just like normal runtime(unchecked) exceptions 
