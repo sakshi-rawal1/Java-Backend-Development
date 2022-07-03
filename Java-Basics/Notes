@@ -141,3 +141,13 @@ int[] arr = new int[0]; // compiles and runs successfully
 int[] arr = new int[-5]; // gives NegativeArraySizeException at runtime
 
 ********************************************************************************************************************************************************************
+
+Synchronization in java is the capability to control the access of multiple threads to any shared resource.
+Synchronized access means it is thread-safe. So different threads can access the collection concurrently
+without any problems, but it is probably a little bit slower depending on what you are doing. 
+
+Unsynchronized is the opposite. Not thread-safe, but a little bit faster.
+Implementation of ArrayList is not synchronized by default. It means if a thread modifies it
+structurally and multiple threads access it concurrently, it must be synchronized externally.
+
+********************************************************************************************************************************************************************
