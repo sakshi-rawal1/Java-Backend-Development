@@ -151,3 +151,18 @@ Implementation of ArrayList is not synchronized by default. It means if a thread
 structurally and multiple threads access it concurrently, it must be synchronized externally.
 
 ********************************************************************************************************************************************************************
+
+static variables are declared using the static keyword within a class outside any method, constructor, or block.
+
+*******************************************************************************************************************************************************************
+
+int arr[] = {1,2,3};      
+int brr[] = arr.clone();
+
+*******************************************************************************************************************************************************************
+
+Deep Copy = two different references points to seperate individual copy of object //two diff address 2 ref
+Shallow Copy = two diffrerent refrences points to same object //one address and 2 ref
+
+********************************************************************************************************************************************************************
+
