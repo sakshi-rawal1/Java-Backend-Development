@@ -166,3 +166,14 @@ Shallow Copy = two diffrerent refrences points to same object //one address and 
 
 ********************************************************************************************************************************************************************
 
+use == operators for reference comparison (address comparison) ie (== checks whether both objects point to the same memory location whereas)
+.equals() method for content comparison ie .equals() evaluates the comparison of values in the objects.
+
+********************************************************************************************************************************************************************
+String s1 = "Hello";
+String s2 = s1.concat("World");
+Sout(s1); // Hello
+
+concat method returns a String Object.
+as Strings are immutable in Java S1 is not changed here.
+*******************************************************************************************************************************************************************
