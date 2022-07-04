@@ -100,7 +100,7 @@ it can also be done in non-primitive types which is called upcasting or downcast
 will see this later.
 
 **********************************************************************************************************************************************************************
-
+int i = 0;
 while(i<10); == while(i<10){;}
 //this will run infinite times
 
