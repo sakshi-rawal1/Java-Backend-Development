@@ -210,3 +210,12 @@ Well, now you could say, what if someone overrides the functionality of String c
 That's the reason that the String class is marked final so that nobody can override the behavior of its methods.
 
 ********************************************************************************************************************************************************************
+
+Encapsulation :- 
+
+making state or fields of class as private and accessing them only using getters and setters method.
+we can also apply validations while setting any value or we can set restrictions like a field 
+is read only and we cannot write it by only exposing getter method on it.
+ie Wrapping up of data members and member functions in a class for security purpose. 
+
+*****************************************************************************************************************************************************************
