@@ -218,4 +218,7 @@ we can also apply validations while setting any value or we can set restrictions
 is read only and we cannot write it by only exposing getter method on it.
 ie Wrapping up of data members and member functions in a class for security purpose. 
 
+fields >> private 
+Getter/Setters >> public
+
 *****************************************************************************************************************************************************************
