@@ -222,3 +222,38 @@ fields >> private
 Getter/Setters >> public
 
 *****************************************************************************************************************************************************************
+
+Child obj = new Child();
+obj can access 
+1. public methods of Parent class
+2. Instance methods of Child class
+3. Overridden method of Parent class in child class
+
+Parent obj = new Child(); //called upcasting 
+obj can access 
+1. methods of Parent class 
+2. Overridden method in Child class 
+3. The methods which is exclusively in child class are not accessible
+
+Parent obj = new Parent();
+only methods of Parent class are accessible
+
+* whenever we create an object of child class the default constructor of parent class is invoked before invoking constructor of child class
+
+*****************************************************************************************************************************************************************
+Abstraction 
+
+Arrays.sort(arr);
+here we use the functionality of sort without knowing the internal implementation details of the sort function. 
+whether it is using quick sort or bubble who cares.
+
+By using Interface and abstract class we can use abstraction
+******************************************************************************************************************************************************************
+
+Encapsulation vs Data Abstraction
+
+Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).
+While encapsulation groups together the data and the methods that act upon the data, 
+data abstraction deals with exposing the interface to the user and hiding the details of the implementation.
+
+*****************************************************************************************************************************************************************
