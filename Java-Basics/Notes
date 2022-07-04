@@ -32,6 +32,20 @@ java World >> runs the class file
 We can overload main method 
 We cannot override main method 
 We can only have one public class in java file which has a main method 
+If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+
+Example Superclass class A defined a method whose access modifier is protected. 
+While doing method overriding in SubClass Class B we didn’t define any access modifier so 
+Default access modifier will be used. By the rule, Default is more restricted then Protected 
+so this program will give compile time error. Instead of default, we could’ve used public which is less restricted then protected.
+
+Access modifier restrictions in decreasing order:
+
+private
+default
+protected
+public
+i.e. private is more restricted then default and default is more restricted than protected and so on.
 
 *********************************************************************************************************************************************************************
 
