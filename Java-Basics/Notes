@@ -264,8 +264,23 @@ if a class has any one abstract method than the class should be marked as Abstra
 *****************************************************************************************************************************************************************
 
 Can we override static method?
-
 We can not override the static method because static methods do not belong to objects, it resides in the 
 Class memory area and We can not override class methods as they are shared among all the objects.
 
+Why we have constructors in Abstract class?
+An abstract class can have parametrized constructors and the default constructor is always present in an abstract class.
+The constructor inside the abstract class can only be called during constructor chaining i.e. when we create an instance of sub-classes.
+This is also one of the reasons abstract class can have a constructor.
+
+Why we do not have constructors in Interface?
+An Interface in Java doesn't have a constructor because all data members in interfaces are public static final by default, they are constants (assign the values at the time of declaration). 
+There are no data members in an interface to initialize them through the constructor.
 *****************************************************************************************************************************************************************
+
+How we can access Private data members of a class?
+Using inner class 
+Or by inheriting the inner class of the Class we want to use the private data members.
+
+******************************************************************************************************************************************************************
+
+
