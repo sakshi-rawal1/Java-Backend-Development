@@ -260,3 +260,12 @@ data abstraction deals with exposing the interface to the user and hiding the de
 
 An abstract class can have zero or more abstract methods 
 if a class has any one abstract method than the class should be marked as Abstract otherwise it will give compile time error.
+
+*****************************************************************************************************************************************************************
+
+Can we override static method?
+
+We can not override the static method because static methods do not belong to objects, it resides in the 
+Class memory area and We can not override class methods as they are shared among all the objects.
+
+*****************************************************************************************************************************************************************
