@@ -279,7 +279,7 @@ There are no data members in an interface to initialize them through the constru
 
 How we can access Private data members of a class?
 Using inner class 
-Or by inheriting the inner class of the Class we want to use the private data members.
+Or by inheriting the inner class of the Outer class
 
 ******************************************************************************************************************************************************************
 
