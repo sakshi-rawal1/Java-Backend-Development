@@ -257,3 +257,6 @@ While encapsulation groups together the data and the methods that act upon the d
 data abstraction deals with exposing the interface to the user and hiding the details of the implementation.
 
 *****************************************************************************************************************************************************************
+
+An abstract class can have zero or more abstract methods 
+if a class has any one abstract method than the class should be marked as Abstract otherwise it will give compile time error.
