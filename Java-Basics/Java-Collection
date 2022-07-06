@@ -1,0 +1,36 @@
+Java Collection Interface
+
+Implementation of Data Structures :-
+List : ArrayList, LinkedList, Vector, Stack
+Set : HashSet, TreeSet, LinkedHashSet
+Queue : LinkedList, ArrayDeque, PriorityQueue
+Deque : LinkedList, ArrayDeque
+Map: HashMap, TreeMap, LinkedHashMap
+
+*******************************************************************************************************************************************************************
+List :
+ArrayList >> Dynamic Sized Array
+LinkedList >> Doubly linked list
+Vector >> Dynamic Sized Array >> Legacy Class >> thread safe >> Not recommended to be used in single threaded environment cause extra overhead >> Use ArrayList
+Stack >> LIFO >> extends Vector class >> Legacy Class >> thread safe >> Not recommended to be used in single threaded environment cause extra overhead >> Use ArrayDeque
+
+Set :
+HashSet >> Use hashing internally >> collection of keys >> quickly search insert delete keys >> order is not preserved 
+TreeSet >> Implements Self Balancing binary search tree >> Red-Black tree >> Sorted order 
+LinkedHashSet >> Internally uses HashSet and LinkedList >> Order is preserved 
+
+Queue :
+LinkedList >> FIFO >> Queue Implemented using LinkedList
+ArrayDeque >> FIFO >> Queue Implemented using Array
+PriorityQueue >> Implements Heap Data Structure >> Queue with Priorities
+
+Deque :
+LinkedList : Doubly ended queue >> Implemented using LinkedList
+ArrayDeque : Doubly ended queue >> Implemented using Array
+
+Map : 
+HashMap : Internally uses Hashing >> Collection of Key and Value pair >> Searching O(1) avg case >> Order is not preserved 
+TreeMap >> Implementation of SElf Balancing Binary Search Tree ie Red-Black Tree >> Items are stored in Sorted order >> Searching, insert delete are O(log n)
+LinkedHashMap >> Order is preserved >> uses Internally uses HashMap and LinkedList 
+
+*****************************************************************************************************************************************************************
