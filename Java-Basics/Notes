@@ -283,4 +283,5 @@ Or by inheriting the inner class of the Outer class
 
 ******************************************************************************************************************************************************************
 
-
+we can't write any constructor for anonymous Inner class because the anonymous class
+does not have any name and while defining constructor class name and constructor name must be same.
