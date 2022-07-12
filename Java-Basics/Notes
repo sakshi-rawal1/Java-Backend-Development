@@ -13,7 +13,7 @@ This line outputs the string "Hello, World" followed by a new line on the screen
 
 System : It is a predefined class in java.lang package 
 out : It is a reference of type PrintStream(class)
-println(String s) : a built-in method inside PrintStream class called using out object accepts various kinds of arguments(overloaded method).  
+println(String s) : a built-in method inside PrintStream class called using out reference accepts various kinds of arguments(overloaded method).  
 
 *********************************************************************************************************************************************************************
 
