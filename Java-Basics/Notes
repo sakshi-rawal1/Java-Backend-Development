@@ -27,6 +27,10 @@ Hello.java has World class without public modifier (file name != class name)
 javac Hello.java >> World.class file is created in current working directory
 java World >> runs the class file
 
+File name and class name should be same as a public class in java file otherwise make all the classes non-public
+
+We cannot use private or protected in front of class name.
+Only public and package-private ie default is allowed.
 *********************************************************************************************************************************************************************
 
 We can overload main method 
