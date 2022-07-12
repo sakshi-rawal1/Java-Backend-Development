@@ -35,7 +35,7 @@ Only public and package-private ie default is allowed.
 
 We can overload main method 
 We cannot override main method 
-We can only have one public class in java file which has a main method 
+We can only have one public class in any java file
 If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
 
 Example Superclass class A defined a method whose access modifier is protected. 
@@ -127,7 +127,7 @@ class Test{
 
 Static Member in Java
 
-→ Static membex can be accessed without creating an object.
+→ Static member can be accessed without creating an object.
 
 → Static methods cannot access non-static member.
 
@@ -229,15 +229,19 @@ Getter/Setters >> public
 
 Child obj = new Child();
 obj can access 
-1. public methods of Parent class
+1. public,protected,default methods of Parent class
 2. Instance methods of Child class
 3. Overridden method of Parent class in child class
 
 Parent obj = new Child(); //called upcasting 
 obj can access 
-1. methods of Parent class 
+1. public,protected,default methods of Parent class 
 2. Overridden method in Child class 
 3. The methods which is exclusively in child class are not accessible
+
+Note :- in this case we cannot call the instance methods of child class so for calling them we can downcast the object using the reference of parent class 
+Parent p = new Child();  
+Child c = (Child)p;   
 
 Parent obj = new Parent();
 only methods of Parent class are accessible
