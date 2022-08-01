@@ -34,3 +34,13 @@ TreeMap >> Implementation of SElf Balancing Binary Search Tree ie Red-Black Tree
 LinkedHashMap >> Order is preserved >> uses Internally uses HashMap and LinkedList 
 
 *****************************************************************************************************************************************************************
+
+Comparable Interface >> compareTo(Object obj)
+it return this.x - obj.x;
+it sorts in natural order of the type defined in the compareTo method 
+the class will be implementing the comparable interface 
+
+Comparator Interface >> compare(Object obj1,Object obj2)
+return obj1.x - obj2.x;
+we need to create a separate class which implements the comparator interface as it does not follow the natural order 
+its object is to be part in sort function or lambda function or method reference
